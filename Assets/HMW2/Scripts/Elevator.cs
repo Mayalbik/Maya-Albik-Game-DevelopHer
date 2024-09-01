@@ -49,7 +49,6 @@ public class Elevator : MonoBehaviour
                 Debug.Log($"Elevator going down, {numberOfFloors} floors");
                 Debug.Log($"Moving to floor {currentFloorShabat = currentFloorShabat - i}");
             }
-            Debug.Log("You are not in Shabbat floor");
         }
     }
         // If it isn't Shabbat
